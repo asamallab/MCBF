@@ -1,3 +1,12 @@
+"""
+==================================
+Program to compute check if a Boolean function is a read-once function, and also generate RoFs
+Written by: Ajay Subbaroyan
+Reference:
+==================================
+"""
+
+
 import os
 import math
 import string
