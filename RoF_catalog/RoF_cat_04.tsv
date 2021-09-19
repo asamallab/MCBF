@@ -1,0 +1,6 @@
+decimal_rep	bias	avg_sensitivity	CF	NCF	cana_depth	expressions	isomorphisms
+1	1	0.5	True	True	4	abcd	16
+7	3	1.0	True	True	4	ab(c+d)	96
+31	5	1.25	True	True	4	a(b+cd)	192
+4383	7	1.5	False	False	0	(ab+cd)	48
+127	7	1.25	True	True	4	a(b+(c+d))	64
