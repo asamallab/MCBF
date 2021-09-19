@@ -6,7 +6,7 @@ MCBF stands for Minimum Complexity Boolean Functions. Read once functions (RoFs)
 
 ## Folder Structure
 There are 2 files in this repository:
-  1. RoF_catalog: This folder contains 10 files called RoF_cat_XX.tsv, where X takes values 0 to 9. 'XX' refers to a input variables (k) of the RoF. Each file contains the representative RoFs (upto <img src="https://render.githubusercontent.com/render/math?math=2^{k-1}">) and their properties such as:
+  1. RoF_catalog: This folder contains 10 files called RoF_cat_XX.tsv, where X takes values 0 to 9. 'XX' refers to the number of input variables (k) of the RoF. Each file contains the representative RoFs (upto <img src="https://render.githubusercontent.com/render/math?math=2^{k-1}">) and their properties such as:
        * decimal_rep: integer encoding of the RoF.
        * bias: Hamming weight of the RoF.
        * avg_sensitivity: average sensitivity.
