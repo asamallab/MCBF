@@ -6,14 +6,14 @@ The RoF (read-once function) catalog contains a list of the *representative* RoF
 
 ## Folder Structure
 There are 2 files in this repository:
-  1. RoF_catalog: This folder contains 10 files called RoF_cat_X.tsv, where X takes values from 1 to 10. 
+  1. RoF_catalog: This folder contains 10 files called RoF_cat_XX.tsv, where XX takes values from 01 to 10. 
        It contains properties of every representative RoF such as:
        * decimal_rep: integer encoding of the RoF.
        * bias: Hamming weight of the RoF
        * avg_sensitivity: average sensitivity.
        * CF: whether is it canalyzing.
        * NCF: whether is it nested canalyzing.
-       * C_depth: Canalyzing depth.
+       * cana_depth: Canalyzing depth
        * expressions: the Boolean expression of the representative MBCF.
        * isomorphisms: the number of isomorphisms of the function.
   2. RoF_codes.py: Program to generate and check if a Boolean function is a RoF.
