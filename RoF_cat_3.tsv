@@ -1,0 +1,5 @@
+decimal_rep	hamming_weight	avg_sensitivity	CF	NCF	C_depth	temp_exp	expressions
+1	1	0.75	True	True	3	111	abc
+7	3	1.25	True	True	3	1(1+1)	a(b+c)
+31	5	1.25	True	True	3	(1+11)	(a+bc)
+127	7	0.75	True	True	3	(1+(1+1))	(a+(b+c))

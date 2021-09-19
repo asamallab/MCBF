@@ -1,0 +1,11 @@
+decimal_rep	hamming_weight	avg_sensitivity	CF	NCF	C_depth	temp_exp	expressions
+1	1	0.5	True	True	4	1111	abcd
+7	3	1.0	True	True	4	11(1+1)	ab(c+d)
+31	5	1.25	True	True	4	1(1+11)	a(b+cd)
+4383	7	1.5	False	False	0	(11+11)	(ab+cd)
+127	7	1.25	True	True	4	1(1+(1+1))	a(b+(c+d))
+1911	9	1.5	False	False	0	(1+1)(1+1)	(a+b)(c+d)
+511	9	1.25	True	True	4	(1+111)	(a+bcd)
+2047	11	1.25	True	True	4	(1+1(1+1))	(a+b(c+d))
+30591	13	1.0	True	True	4	(11+(1+1))	(ab+(c+d))
+32767	15	0.5	True	True	4	(1+(1+(1+1)))	(a+(b+(c+d)))
