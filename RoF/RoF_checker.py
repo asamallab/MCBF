@@ -3,7 +3,8 @@
 Program to check if a Boolean function is a RoF for some given number
 of inputs
 Written by: Ajay Subbaroyan
-Reference: 
+Reference: A. Subbaroyan, O. C. Martin, A. Samal. Minimum complexity
+drives regulatory logic in Boolean models of living systems. 
 ====================================================================
 """
 import sys
