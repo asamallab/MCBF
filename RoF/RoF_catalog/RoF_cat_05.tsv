@@ -1,0 +1,13 @@
+decimal_rep	bias	avg_sensitivity	CF	NCF	cana_depth	expressions	isomorphisms
+1	1	0.3125	True	True	5	abcde	32
+7	3	0.6875	True	True	5	abc(d+e)	320
+31	5	0.9375	True	True	5	ab(c+de)	960
+127	7	1.0625	True	True	5	ab(c+(d+e))	320
+4383	7	1.1875	True	False	1	a(bc+de)	480
+511	9	1.1875	True	True	5	a(b+cde)	640
+1911	9	1.3125	True	False	1	a(b+c)(d+e)	480
+2047	11	1.3125	True	True	5	a(b+c(d+e))	1920
+16843263	11	1.4375	False	False	0	(ab+cde)	320
+30591	13	1.3125	True	True	5	a(bc+(d+e))	960
+2039583	15	1.5625	False	False	0	(a+b)(c+de)	960
+32767	15	1.1875	True	True	5	a(b+(c+(d+e)))	160
