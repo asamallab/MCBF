@@ -20,9 +20,8 @@ There are 3 files in this folder:
 The RoF_checker.py makes use of RoF_catalog as a look-up table to check for RoFs. 
 
 ## Algorithm Flowchart for the RoF_checker
-
-![Alt desc](https://github.com/asamallab/MCBF/edit/main/RoF/RoF_checker_flowchart.png)
-
+<img src="RoF_checker_flowchart.png">
+  
 #### In case you use the codes or catalog herein, please cite the reference given above.
 ## CITATION
 
