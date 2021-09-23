@@ -8,13 +8,13 @@ There are 3 files in this folder:
        * decimal_rep: integer encoding of the RoF.
        * bias: Hamming weight of the RoF.
        * avg_sensitivity: average sensitivity.
-       * CF: whether is it canalyzing.
-       * NCF: whether is it nested canalyzing.
-       * cana_depth: Canalyzing depth
-       * expressions: the Boolean expression of the representative RoF.
-       * isomorphisms: the number of isomorphisms of the function.
+       * CF: whether the RoF is canalyzing.
+       * NCF: whether the RoF is nested canalyzing.
+       * cana_depth: canalyzing depth of the RoF
+       * expressions: the Boolean expression of the RoF.
+       * isomorphisms: all permutations and negations of the inputs of the RoF.
   2. RoF_checker.py : Program to check if a Boolean function is a RoF.
-  3. RoF_generator.py : Program to generate all the representative RoFs with a given number of inputs.
+  3. RoF_generator.py : Program to generate all the representative RoFs for a given number of inputs.
 
 ## Attention
 The RoF_checker.py makes use of RoF_catalog as a look-up table to check for RoFs. 
