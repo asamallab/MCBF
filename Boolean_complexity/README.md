@@ -19,4 +19,4 @@ An instance of a BF (repBF_032) is used to explain the procedure to it's obtain 
 
 5. Finally, count the number of literals in each of the Boolean expressions in the .eqn files in the output_file. The expression with the minimum number of literals is taken to be the minimum expression. The number of literals in this expression is taken to be the Boolean complexity.
 
-This procedure is used to obtain the minimal expression and Boolean complexity of all representative 4-input Boolean functions. For details, see file k4_rep_BFs.tsv.
+This procedure is used to obtain the minimal expression and Boolean complexity of all representative 4-input Boolean functions. For details, see the file k4_rep_BFs.tsv.
