@@ -1,7 +1,7 @@
 # MCBF
 
 ## About
-MCBF stands for Minimum Complexity Boolean Functions. Read once functions (RoFs) are a type of Boolean function which possess minimum 'Boolean complexity'. We provide here a catalog of RoFs and a code to both generate RoFs and check if a Boolean function is an RoF.
+MCBF: Minimum Complexity Boolean Functions.
 
 
 ## Folder Structure
@@ -20,7 +20,5 @@ There are 2 files in this repository:
 ## Attention
 The RoF_codes.py makes use of RoF_catalog as a look-up table to check for RoFs. 
 
-## References
-<a id="1">[1]</a>
-
 #### In case you use the codes or catalog herein, please cite the reference given above.
+## CITATION
