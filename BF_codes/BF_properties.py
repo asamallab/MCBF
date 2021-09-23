@@ -3,7 +3,8 @@
 Program to obtain perform operations on Boolean functions and get their
 various properties
 Written by: Ajay Subbaroyan
-Reference: 
+Reference: A. Subbaroyan, O.C. Martin, A. Samal. Minimum complexity 
+drives regulatory logic in Boolean models of living systems. 
 ====================================================================
 """
 
