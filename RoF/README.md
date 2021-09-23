@@ -14,7 +14,7 @@ There are 3 files in this folder:
        * expressions: the Boolean expression of the representative RoF.
        * isomorphisms: the number of isomorphisms of the function.
   2. RoF_checker.py : Program to check if a Boolean function is a RoF.
-  3. RoF_generator.py : and also to generate all the representative RoFs with a given number of inputs.
+  3. RoF_generator.py : Program to generate all the representative RoFs with a given number of inputs.
 
 ## Attention
 The RoF_checker.py makes use of RoF_catalog as a look-up table to check for RoFs. 
