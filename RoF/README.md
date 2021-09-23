@@ -19,6 +19,7 @@ There are 3 files in this folder:
 ## Algorithm Flowchart for the RoF_checker
 <img src="RoF_checker_flowchart.png">
   
-#### In case you use the codes or catalog herein, please cite the reference given above.
-## CITATION
+In case you use the codes or catalog herein, please cite the reference given above.
 
+## CITATION
+A. Subbaroyan, O.C. Martin, A. Samal. Minimum complexity drives regulatory logic in Boolean models of living systems.
