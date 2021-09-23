@@ -17,4 +17,4 @@ An instance of a BF (repBF_032) is used to explain the procedure to it's obtain 
 
 4. Run the abc_code.sh shell script to four obtain minimized expression, each corresponding to one kind of expression. This file is stripped of the first two lines to leave only the minimized Boolean expression in the output (see the output_files) 
 
-5. Finally, count the number of literals in each of the Boolean expressions in the .eqn files in the output_file and select the one with the minimum number. We take this to be the Boolean complexity of the function
+5. Finally, count the number of literals in each of the Boolean expressions in the .eqn files in the output_file. The expression with the minimum number of literals is taken to be the minimum expression. The number of literals in this expression is taken to be the Boolean complexity.
