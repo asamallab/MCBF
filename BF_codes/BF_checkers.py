@@ -3,7 +3,7 @@
 Program to generate the different the different types of BFs, namely
 EFs, UFs, CFs and NCFs
 Written by: Ajay Subbaroyan
-Reference: A. Subbaroyan, O.C. Martin, A. Samal. Minimum complexity 
+Reference: A. Subbaroyan, O. C. Martin, A. Samal. Minimum complexity 
 drives  regulatory logic in Boolean models of living systems. 
 ====================================================================
 """
