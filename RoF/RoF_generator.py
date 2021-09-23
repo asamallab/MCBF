@@ -1,9 +1,10 @@
 """
-====================================================================
+=============================================================================
 Program to compute check if a Boolean function is a read-once function
 Written by: Ajay Subbaroyan
-Reference:
-====================================================================
+Reference: Reference: A. Subbaroyan, O. C. Martin, A. Samal. Minimum complexity
+drives regulatory logic in Boolean models of living systems. 
+=============================================================================
 """
 import sys
 sys.path.append('..\\BF_codes')
