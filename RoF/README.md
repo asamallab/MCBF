@@ -1,6 +1,6 @@
 # RoF: Read-once functions
 
-Read-once are a type of Boolean function in whose expression is constructed in such that the literal (corresponding to one input) appears exactly once in it's Boolean expresison. These literals maybe positive or negated and are joined by either AND or OR operators.
+If the Boolean expression consists exactly of *k* variables, one corresponding to each of it's *k* inputs, and consists only of the operators AND, OR and NOT, then the associated Boolean function is a Read-once function.
 
 ## Folder Structure
 There are 3 files in this folder:
@@ -13,11 +13,8 @@ There are 3 files in this folder:
        * cana_depth: canalyzing depth of the RoF
        * expressions: the Boolean expression of the RoF.
        * isomorphisms: all permutations and negations of the inputs of the RoF.
-  2. RoF_checker.py : Program to check if a Boolean function is a RoF.
-  3. RoF_generator.py : Program to generate all the representative RoFs for a given number of inputs.
-
-## Attention
-The RoF_checker.py makes use of RoF_catalog as a look-up table to check for RoFs. 
+  2. RoF_checker.py : Program to check if a Boolean function is a RoF (This program makes use of RoF_catalog as a look-up table to check for RoFs).
+  3. RoF_generator.py : Program to generate all the representative RoFs for a given number of inputs. 
 
 ## Algorithm Flowchart for the RoF_checker
 <img src="RoF_checker_flowchart.png">
