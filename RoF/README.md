@@ -5,3 +5,5 @@ Read-once are a type of Boolean function in whose expression is constructed in s
 ## Algorithm Flowchart for the RoF_checker
 
 ![Alt desc](https://github.com/asamallab/MCBF/edit/main/RoF/RoF_checker_flowchart.png)
+
+## CITATION
