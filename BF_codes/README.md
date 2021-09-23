@@ -8,7 +8,7 @@ BF_properties.py is used to get various aspects of BFs such as average sensitivi
 
 <img src="repr_BFs.png">
 
-If you use the above codes, cite the below reference:
+In case you use the codes or data or catalog herein, please cite the reference given below:
 
 ## CITATION
 A. Subbaroyan, O.C. Martin, A. Samal. Minimum complexity drives regulatory logic in Boolean models of living systems.
