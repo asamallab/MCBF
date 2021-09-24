@@ -5,7 +5,7 @@ The Boolean complexity is the number of literals in the minimal equivalent expre
 
 ## Procedure to compute the Boolean complexity
 
-We use the software 'ABC: System for Sequential Logic Synthesis and Formal Verification' to facotrize a Boolean expression. The link to this software is : https://github.com/berkeley-abc/abc 
+We use the software 'ABC: System for Sequential Logic Synthesis and Formal Verification' to factorize a Boolean expression. The link to this software is : https://github.com/berkeley-abc/abc 
 
 An instance of a BF (repBF_032) is used to explain the procedure to it's obtain it's Boolean complexity. Here repBF_032 is one of the representative Boolean functions of a 4-input Boolean function.
 
