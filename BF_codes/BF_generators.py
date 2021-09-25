@@ -31,7 +31,19 @@ class generate:
             b = bin(integer)[2:].zfill(2**self.k)
             L+=[b]
         return L
-        
+    
+     def all_EF(self):
+        '''
+        returns all the EFs with k inputs. Works upto k=4
+
+        #instance
+        >>> generate(1).all_EF()
+        >>> ['01', '10']
+        '''
+        A = generate(self.k).all_BF()
+        L = [func for func in A if check_if(self.k,func).is_EF()]
+        return L
+
     def UF_temp (inedge, uf):
         '''
         returns the UFs for k inputs
