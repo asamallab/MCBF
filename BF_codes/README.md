@@ -4,7 +4,7 @@ BF_checkers.py checks if a BF(Boolean function) is an EF (Effective function), U
 
 Instances:
 Enter the number of inputs and BF truth table as a binary string. The string from left to right is the output of the truth table from the top to bottom.
-
+https://github.com/asamallab/MCBF/blob/80ae287c0ae59e5be7148caad1ecfb1d6e9c213a/BF_codes/BF_checkers.py#L13
 ```python
 >>> check_if(3,'10001010').is_EF()
 True
@@ -33,14 +33,18 @@ Instances:
 >>> generate(2).UF_with_sign ('ai')
 ['0000', '0010', '0011', '1010', '1011', '1111']
 
->>> generate(2).all_CF
+>>> generate(2).all_signs_UF()
+['1000', '1110', '0010', '1011', '0100', '1101', '0001', '0111']
+
+>>> generate(2).all_CF()
 ['0000', '0001', '1110', '0010', '1111', '0011', '1010','0111', '1100', '1000', '0100', '1101', '1011', '0101']
 
->>> generate(2).all_NCF ()
+>>> generate(2).all_NCF()
 ['0001', '1110', '0010', '0111', '1000', '0100', '1101', '1011']
 ```
 
 BF_properties.py is used to get various aspects of BFs such as average sensitivity, neighbors of each vertex of the hypercube, it's isomorphisms, dnf or cnf expressions (both 'full' and 'Quine-McCluskey minimized' expressions) and canalyzing depth.
+
 
 
 <img src="repr_BFs.png">
