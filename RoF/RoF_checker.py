@@ -1,12 +1,13 @@
-"""
+'''
 ====================================================================
-Program to check if a Boolean function is a RoF for some given number
-of inputs
-Written by: Ajay Subbaroyan
-Reference: A. Subbaroyan, O. C. Martin, A. Samal. Minimum complexity
-drives regulatory logic in Boolean models of living systems. 
+#Program to check if a Boolean function is a RoF for some given number
+#of inputs
+#Written by: Ajay Subbaroyan
+#Reference: *Minimum complexity drives regulatory logic in Boolean models of living systems*. Ajay Subbaroyan, Olivier C. Martin, Areejit Samal, bioRxiv 2021.09.20.461164; 
+#doi: https://doi.org/10.1101/2021.09.20.461164
 ====================================================================
-"""
+'''
+
 import sys
 sys.path.append('..\\BF_codes')
 
