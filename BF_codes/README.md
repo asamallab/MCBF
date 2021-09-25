@@ -26,9 +26,22 @@ BF_generator.py generates all BFs belogning to a particular type of BF: EF, UF, 
 
 Instances:
 
+```python
+>>> generate(1).all_BF()
+['00', '01', '10', '11']
 
+>>> generate(2).UF_with_sign ('ai')
+['0000', '0010', '0011', '1010', '1011', '1111']
+
+>>> generate(2).all_CF
+['0000', '0001', '1110', '0010', '1111', '0011', '1010','0111', '1100', '1000', '0100', '1101', '1011', '0101']
+
+>>> generate(2).all_NCF ()
+['0001', '1110', '0010', '0111', '1000', '0100', '1101', '1011']
+```
 
 BF_properties.py is used to get various aspects of BFs such as average sensitivity, neighbors of each vertex of the hypercube, it's isomorphisms, dnf or cnf expressions (both 'full' and 'Quine-McCluskey minimized' expressions) and canalyzing depth.
+
 
 <img src="repr_BFs.png">
 
