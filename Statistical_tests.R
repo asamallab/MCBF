@@ -8,14 +8,15 @@
 # non-NCF RoF: RoFs which are not NCFs
 
 # Test 1: 
-# To check for an enrichment in odd biases in the empirical dataset.
+# To check for an enrichment in odd biases in the reference biological dataset.
 # For a given k (number of inputs), consider the 2 ensembles H0 and H1.
 # H0 is the set of all BF (no constraints) with the uniform measure. 
 # prob_odd is the probability that an element drawn randomly under 
 # H0 has odd bias.
 # For the proposed choice of H0, prob_odd=0.5.
-# The ensemble H1 is all the BF in the empirical dataset. 
-# of M_total_k BF of which M_odd_k have odd bias. The (one sided) test 
+# The ensemble H1 is all the BF in the reference biological dataset and is 
+# equal to M_total_k for k input BFs.
+# M_odd_k out of M_total_k have odd bias. The (one sided) test 
 # for enrichment in odd bias is done by determining the probability 
 # that M_odd_k takes its observed value or higher under H0.
 
@@ -27,7 +28,7 @@ pval_odd_bias <- pbinom(M_odd_k,M_total_k,prob=prob_odd,lower.tail=FALSE)
 
 # Test 2
 # T2.1: To check for an enrichment in EFs, UFs, CFs, NCFs or RoFs in the
-#  empirical  dataset (Enrichment in the space of all BFs)
+#  reference biological dataset (Enrichment in the space of all BFs)
 # T2.2: To check for an enrichment in the ratios NCF/CF or NCF/RoF  
 # (Enrichment in sub types)
 
@@ -37,7 +38,7 @@ pval_odd_bias <- pbinom(M_odd_k,M_total_k,prob=prob_odd,lower.tail=FALSE)
 # These quantities are determined either by mathematics or by enumeration.
 # Since all NCFs are in CF and in RoF, the ratios NCF/CF and NCF/RoF in H0 
 # are just prob_NCF/prob_CF and prob_NCF/prob_RoF.
-# The ensemble H1 is all the BF in the empirical dataset. It has a total
+# The ensemble H1 is all the BF in the reference biological dataset. It has a total
 # of M_total_k BF of which M_CF_k are CFs, M_RoF_k are RoF and M_NCF_k are NCFs.
 
 # Test T2.1:
