@@ -19,4 +19,9 @@ An instance of a BF (repBF_032) is used to explain the procedure to it's obtain 
 
 5. Finally, count the number of literals in each of the Boolean expressions in the .eqn files in the output_file. The expression with the minimum number of literals is taken to be the minimum expression. The number of literals in this expression is taken to be the Boolean complexity.
 
-This procedure is used to obtain the minimal expression and Boolean complexity of all representative 4-input Boolean functions. For details, see the file k4_rep_BFs.tsv.
+This procedure is used to obtain the minimal expression and Boolean complexity of all representative 4-input Boolean functions. The Booleancomplexity, along with the average sensitivity is given in the file k4_rep_BFs.tsv. 
+
+### Bias vs Boolean complexity vs Average sensitivity
+Below is a plot of the variation of the average sensitivity and Boolean complexity of 4-input 'representative' Boolean functions with the bias. Number of isomorphic functions are the number of functions which can be obtained by permutation and negation of the input variables of the Boolean function.
+
+<img src="3d_bias_as_bc_plot.png">
