@@ -48,10 +48,11 @@ Instances:
 ['0001', '1110', '0010', '0111', '1000', '0100', '1101', '1011']
 ```
 
-BF_properties.py is used to get various aspects of BFs such as average sensitivity, neighbors of each vertex of the hypercube, it's isomorphisms, dnf or cnf expressions (both 'full' and 'Quine-McCluskey minimized' expressions) and canalyzing depth.
+BF_properties.py is used to get various aspects of BFs such as average sensitivity, it's permutations, dnf or cnf expressions (both 'full' and 'Quine-McCluskey minimized' expressions) among others.
 
 ```python
->>> bf(3, '10000101').avg_sensitivity()
+
+>>> bf(3, '10000101').avg_sensitivity() 
 1.75
 
 >>> bf(3, '11100000').is_cana_in_input(3)
@@ -62,6 +63,18 @@ BF_properties.py is used to get various aspects of BFs such as average sensitivi
 
 >>> bf(3, '11100000').swap_rows([1,3]) #negates the inputs 1 and 3
 '00001101'
+
+>>> bf(3, '11100000').all_perms()
+['10101000', '11001000', '11100000']
+
+>>> bf.logic_operation('1001', '1010', 0) # Combines the BFs '1001' and '1010' with the '0' (AND) operator
+'1010000000001010'
+
+>>> bf(3,'10001010' ).get_dnf()
+{'full_DNF': '(~a & ~b & ~c) | (a & ~b & ~c) | (a & b & ~c)', 'QM-DNF': (a & ~c) | (~b & ~c)}
+
+>>> bf(3,'10001010' ).get_cnf()
+{'full_CNF': '(a | b | ~c) & (a | ~b | c) & (a | ~b | ~c) & (~a | b | ~c) & (~a | ~b | ~c)', 'QM-CNF': ~c & (a | ~b)}
 ```
 
 In case you use the codes or data or catalog herein, please cite the reference given below:
