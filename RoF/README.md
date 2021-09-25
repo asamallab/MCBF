@@ -13,8 +13,19 @@ There are 3 files in this folder:
        * cana_depth: canalyzing depth of the RoF
        * expressions: the Boolean expression of the RoF.
        * isomorphisms: all permutations and negations of the inputs of the RoF.
+  
   2. RoF_checker.py : Program to check if a Boolean function is a RoF (This program makes use of RoF_catalog as a look-up table to check for RoFs).
+     ```python
+      >>> is_RoF (3, '11001101')
+      'The BF is not a RoF'
+     ```
+  
   3. RoF_generator.py : Program to generate all the representative RoFs for a given number of inputs. 
+     ```python
+      >>> generate_RoFs(3)
+      ['00000001', '00000111', '00011111', '01111111'] # All representative RoFs for 3 inputs
+     ```
+  
 
 ## Algorithm Flowchart for the RoF_checker
 <img src="RoF_checker_flowchart.png">
@@ -22,4 +33,4 @@ There are 3 files in this folder:
 In case you use the codes or catalog herein, please cite the reference given above.
 
 ## CITATION
-A. Subbaroyan, O.C. Martin, A. Samal. Minimum complexity drives regulatory logic in Boolean models of living systems.
+"Minimum complexity drives regulatory logic in Boolean models of living systems". Ajay Subbaroyan, Olivier C. Martin, Areejit Samal, bioRxiv 2021.09.20.461164; doi: https://doi.org/10.1101/2021.09.20.461164
