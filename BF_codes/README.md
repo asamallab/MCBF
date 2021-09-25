@@ -6,7 +6,7 @@ BF_checkers.py checks if a BF(Boolean function) is an EF (Effective function), U
 
 Instances:
 Enter the number of inputs and BF truth table as a binary string. The string from left to right is the output of the truth table from the top to bottom.
-https://github.com/asamallab/MCBF/blob/80ae287c0ae59e5be7148caad1ecfb1d6e9c213a/BF_codes/BF_checkers.py
+
 ```python
 >>> check_if(3,'10001010').is_EF()
 True
