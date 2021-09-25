@@ -2,8 +2,9 @@
 =============================================================================
 Program to compute check if a Boolean function is a read-once function
 Written by: Ajay Subbaroyan
-Reference: Reference: A. Subbaroyan, O. C. Martin, A. Samal. Minimum complexity
-drives regulatory logic in Boolean models of living systems. 
+Reference:"Minimum complexity drives regulatory logic in Boolean models of living systems".
+Ajay Subbaroyan, Olivier C. Martin, Areejit Samal, bioRxiv 2021.09.20.461164; 
+doi: https://doi.org/10.1101/2021.09.20.461164
 =============================================================================
 """
 import sys
