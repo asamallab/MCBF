@@ -225,7 +225,7 @@ class bf:
         n: number of inputs to be permuted
 
         #instance
-        >>> bf(3, '11100000').pos_BF_perms(2)
+        >>> bf(3, '11100000').some_perms(2)
         >>> ['11100000']
         '''
         if n == 1:
@@ -247,7 +247,7 @@ class bf:
         same sign i.e positive or nagetive)
 
         #instance
-        >>> bf(3, '11100000').all_BF_isomorphisms()
+        >>> bf(3, '11100000').all_perms()
         >>> ['10101000', '11001000', '11100000']
         '''
         n = self.k
