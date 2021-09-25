@@ -2,6 +2,8 @@
 
 BF_checkers.py checks if a BF(Boolean function) is an EF (Effective function), UF (Unate function), CF (Canalyzing function) or NCF (Nested canalyzing function).
 
+<img src="repr_BFs.png">
+
 Instances:
 Enter the number of inputs and BF truth table as a binary string. The string from left to right is the output of the truth table from the top to bottom.
 https://github.com/asamallab/MCBF/blob/80ae287c0ae59e5be7148caad1ecfb1d6e9c213a/BF_codes/BF_checkers.py
@@ -30,6 +32,9 @@ Instances:
 >>> generate(1).all_BF()
 ['00', '01', '10', '11']
 
+>>> generate(1).all_EF()
+['01', '10']
+
 >>> generate(2).UF_with_sign('ai')
 ['0000', '0010', '0011', '1010', '1011', '1111']
 
@@ -45,9 +50,19 @@ Instances:
 
 BF_properties.py is used to get various aspects of BFs such as average sensitivity, neighbors of each vertex of the hypercube, it's isomorphisms, dnf or cnf expressions (both 'full' and 'Quine-McCluskey minimized' expressions) and canalyzing depth.
 
+```python
+>>> bf(3, '10000101').avg_sensitivity()
+1.75
 
+>>> bf(3, '11100000').is_cana_in_input(3)
+'1'
 
-<img src="repr_BFs.png">
+>>> bf(3, '11001010').right_shift() #returns a single 'right' cyclic permutation of the  truth table
+'11100100'
+
+>>> bf(3, '11100000').swap_rows([1,3]) #negates the inputs 1 and 3
+'00001101'
+```
 
 In case you use the codes or data or catalog herein, please cite the reference given below:
 
