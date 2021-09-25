@@ -5,6 +5,7 @@ BF_checkers.py checks if a BF(Boolean function) is an EF (Effective function), U
 Examples:
 Enter the number of inputs and BF truth table as *string* of bits.
 
+```python
 >>> check_if(3,'10001010').is_EF()
 True
 
@@ -12,13 +13,14 @@ True
 True
 
 >>> check_if(3,'00001011').is_UF()
-'aai'
+'aai' # 'a':activator and  'i': inhibitor
 
 >>> check_if(3,'00001011').conforms_to_edge_signs('aai')
 True
 
 >>> check_if(3,'11001011').is_NCF()
 False
+```
 
 BF_generator.py generates all BFs belogning to a particular type of BF: EF, UF, CF and NCF.
 
