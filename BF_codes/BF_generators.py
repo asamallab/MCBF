@@ -103,7 +103,7 @@ class generate:
         returns all the UFs pooling all sign combinations
 
         #instance
-        >>> generate(2).all_signs_UF ('ai')
+        >>> generate(2).all_signs_UF ()
         ['1000', '1110', '0010', '1011', '0100', '1101', '0001', '0111']
         '''
         uf, ueff = [], []
