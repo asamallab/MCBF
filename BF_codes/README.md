@@ -55,16 +55,17 @@ BF_properties.py is used to get various aspects of BFs such as average sensitivi
 >>> bf(3, '10000101').avg_sensitivity() 
 1.75
 
->>> bf(3, '11100000').is_cana_in_input(3)
-'1'
+>>> bf(3, '11100000').is_cana_in_input(3) # Checks if the BF is canalyzing in input '3'. 
+'1'                                       # Input 3 is canalyzing, with the canalyzing input equal to '1'
 
->>> bf(3, '11001010').right_shift() #returns a single 'right' cyclic permutation of the  truth table
-'11100100'
+>>> bf(3, '11001010').right_shift() #returns a single 'right' cyclic permutation of the truth table (if 3,2,1 is the order of the inputs, then after the operation,
+'11100100'                          #1,3,2 is the order of the inputs)
+
 
 >>> bf(3, '11100000').swap_rows([1,3]) #negates the inputs 1 and 3
 '00001101'
 
->>> bf(3, '11100000').all_perms()
+>>> bf(3, '11100000').all_perms() #returns all the permutations of the BF (given that all inputs have same sign i.e positive or negative)
 ['10101000', '11001000', '11100000']
 
 >>> bf.logic_operation('1001', '1010', 0) # Combines the BFs '1001' and '1010' with the '0' (AND) operator
