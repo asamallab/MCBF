@@ -14,8 +14,8 @@ The folder contains codes to check (BF_checkers.py) and generate (BF_generators.
 ### 2. Boolean_complexity
 The procedure to compute the Boolean Complexity of a given BF is provided in this folder. 
 
-### RoF
-The code to check if a BF is an RoF, and to generate the representative RoFs are given here. The RoF_catalog list all the representative RoFs and their various properties upto 10 inputs. 
+### 3. RoF
+The code to check if a BF is a read-once function (RoF), and to generate the representative RoFs are given in this folder. The RoF_catalog lists all representative RoFs and their various properties up to k=10 inputs. 
 
 ### biological_dataset
 This folder contains the reference_biological_dataset.tsv file which contains details of the 2687 Boolean functions contained in 88 Boolean models obtained from various sources. It also contains the statistical_tests.R file which is used to compute the *p*-values to show enrichment of different types of BFs.
