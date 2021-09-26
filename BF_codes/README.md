@@ -22,7 +22,7 @@ True
 False
 ```
 
-<b>BF_generator.py</b. generates all BFs belogning to a particular type of BF namely, EF, UF, CF and NCF.<br/>
+<b>BF_generator.py</b> generates all BFs belogning to a particular type of BF namely, EF, UF, CF and NCF.<br/>
 <b>Instances:</b><br/>
 
 ```python
