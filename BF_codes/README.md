@@ -76,5 +76,5 @@ False
 ```
 
 ### CITATION
-In case you use the codes or data herein, please cite the manuscript:
+In case you use the codes or data herein, please cite the manuscript:<br/>
 *Minimum complexity drives regulatory logic in Boolean models of living systems.* Ajay Subbaroyan, Olivier C. Martin, Areejit Samal, bioRxiv 2021.09.20.461164; doi: https://doi.org/10.1101/2021.09.20.461164
