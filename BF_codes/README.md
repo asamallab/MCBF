@@ -45,7 +45,7 @@ False
 ['0001', '1110', '0010', '0111', '1000', '0100', '1101', '1011']
 ```
 
-<b>BF_properties.py</b> is used to get various aspects of BFs such as average sensitivity, it's permutations, dnf or cnf expressions (both 'full' and 'Quine-McCluskey minimized' expressions) among others.<br/>
+<b>BF_properties.py</b> is used to get various aspects of BFs such as average sensitivity, it's permutations, DNF or CNF expressions, both 'full' and 'Quine-McCluskey minimized' expressions, among others.<br/>
 <b>Instances:</b><br/>
 ```python
 
