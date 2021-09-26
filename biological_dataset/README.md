@@ -18,4 +18,4 @@ This file contains the database of 2687 Boolean functions (BFs) compiled from 88
 The EF, UF, CF, EUF, ECF, UCF, EUCF, NCF and RoF columns take the value TRUE if the BF from the dataset belongs to that category, else it is FALSE. 
 
 ### Statistical_tests.R
-The code used to check for the enrichment of different types of BFs in the space of all BFs, and also for the enrichment of certain BFs within subtypes (for instance NCFs within CFs) by computing *p*-values.
+The code used to check for the enrichment of different types of BFs in the space of all BFs, and also for the enrichment of certain BFs within subtypes (e.g., NCFs within CFs) by computing *p*-values.
