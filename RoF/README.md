@@ -1,6 +1,6 @@
 # RoF: Read-once functions
 
-If the Boolean expression consists exactly of *k* variables, one corresponding to each of it's *k* inputs, and consists only of the operators AND, OR and NOT, then the associated Boolean function is a Read-once function.
+If the Boolean expression consists exactly of *k* variables, one corresponding to each of it's *k* inputs, and consists only of the operators AND, OR and NOT, then the associated Boolean function is a Read-once function (RoF).
 
 ## Folder Structure
 There are 3 files in this folder:
