@@ -2,7 +2,7 @@
 
 ## About
 MCBF repository contains the codes and dataset associated with the following manuscript:<br/>
-"Minimum complexity drives regulatory logic in Boolean models of living systems"<br/>
+*Minimum complexity drives regulatory logic in Boolean models of living systems*<br/>
 Ajay Subbaroyan, Olivier C. Martin, Areejit Samal<br/> 
 bioRxiv 2021.09.20.461164; doi: https://doi.org/10.1101/2021.09.20.461164<br/>
 
@@ -23,4 +23,4 @@ This folder gives the reference_biological_dataset.tsv file containing details o
 
 ### CITATION
 In case you use the codes or data herein, please cite the manuscript:<br/> 
-Minimum complexity drives regulatory logic in Boolean models of living systems. Ajay Subbaroyan, Olivier C. Martin, Areejit Samal, bioRxiv 2021.09.20.461164; doi: https://doi.org/10.1101/2021.09.20.461164
+*Minimum complexity drives regulatory logic in Boolean models of living systems.* Ajay Subbaroyan, Olivier C. Martin, Areejit Samal, bioRxiv 2021.09.20.461164; doi: https://doi.org/10.1101/2021.09.20.461164
