@@ -6,11 +6,13 @@ MCBF repository contains the codes and dataset associated with the following man
 Ajay Subbaroyan, Olivier C. Martin, Areejit Samal<br/> 
 bioRxiv 2021.09.20.461164; doi: https://doi.org/10.1101/2021.09.20.461164<br/>
 
-### BF_codes 
-The checkers (BF_checkers.py) and generators (BF_generators.py) of the different types of BFs are given in this folder. BF_properties are the codes to get some properties fo BFs and perform various operations on them. 
+This repository contains 4 folders which are described below.
 
-### Boolean_complexity
-The procedure to compute the Boolean Complexity is given in this folder. 
+### 1. BF_codes 
+The folder contains codes to check (BF_checkers.py) and generate (BF_generators.py) different types of biologically meaningful BFs. The code (BF_properties.py) enables computations of some properties of BFs and perform various operations on them. 
+
+### 2. Boolean_complexity
+The procedure to compute the Boolean Complexity of a given BF is provided in this folder. 
 
 ### RoF
 The code to check if a BF is an RoF, and to generate the representative RoFs are given here. The RoF_catalog list all the representative RoFs and their various properties upto 10 inputs. 
