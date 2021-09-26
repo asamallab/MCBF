@@ -1,7 +1,7 @@
 ### Reference_biological_dataset.tsv
-This contains the 2687 Boolean functions compiled from 88 models which have been recontructed from biological data. They include models from various sources including the CellCollective, GINSIM, BioModels and also by manual curation. The columns in this file are:
+This file contains the database of 2687 Boolean functions compiled from 88 discrete models of biological systems. The models were compiled from various sources including the <a href="https://cellcollective.org/">Cell Collective</a>, <a href="http://ginsim.org/">GINSIM</a>, <a href="https://www.ebi.ac.uk/biomodels/">BioModels</a> and also by manual curation of published literature. The columns in this file are as follows:
 
-Node_name: name of the node as given in the model
+- Node_name: name of the node as given in the model
 - *k* : number of inputs to the node
 - Bias: number of 1s in the output column of the truth table of the BF
 - EF: Effective functions
