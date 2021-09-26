@@ -21,5 +21,6 @@ The EF, UF, CF, EUF, ECF, UCF, EUCF, NCF and RoF columns take the value TRUE if 
 The code used to check for the enrichment of different types of BFs in the space of all BFs, and also for the enrichment of certain BFs within subtypes (e.g., NCFs within CFs) by computing *p*-values.
 
 ### CITATION
-"Minimum complexity drives regulatory logic in Boolean models of living systems". Ajay Subbaroyan, Olivier C. Martin, Areejit Samal, bioRxiv 2021.09.20.461164; 
-doi: https://doi.org/10.1101/2021.09.20.461164
+In case you use the codes or data herein, please cite the manuscript:<br/> 
+*Minimum complexity drives regulatory logic in Boolean models of living systems.* Ajay Subbaroyan, Olivier C. Martin, Areejit Samal, bioRxiv 2021.09.20.461164; doi: https://doi.org/10.1101/2021.09.20.461164
+
