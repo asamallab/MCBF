@@ -1,6 +1,6 @@
 # RoF: Read-once functions
 
-If the Boolean expression consists exactly of *k* variables, one corresponding to each of it's *k* inputs, and consists only of the operators AND, OR and NOT, then the associated Boolean function is a Read-once function (RoF).
+If the Boolean expression consists exactly of *k* variables, one corresponding to each of it's *k* inputs, and consists only of the operators AND, OR and NOT, then the associated Boolean function (BF) is a Read-once function (RoF).
 
 ### Folder Structure
 There are 3 files in this folder:
@@ -14,7 +14,7 @@ There are 3 files in this folder:
        * expressions: the Boolean expression of the RoF
        * isomorphisms: all permutations and negations of the inputs of the RoF
   
-  2. RoF_checker.py: Program to check if a Boolean function is a RoF (This program makes use of RoF_catalog as a look-up table to check for RoFs).
+  2. RoF_checker.py: Program to check if a BF is a RoF (This program makes use of RoF_catalog as a look-up table to check for RoFs).
      ```python
       >>> is_RoF (3, '11001101')
       'The BF is not a RoF'
