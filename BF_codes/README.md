@@ -1,10 +1,8 @@
 # About
-
-BF_checkers.py checks if a BF (Boolean function) is an EF (Effective function), UF (Unate function), CF (Canalyzing function) or NCF (Nested canalyzing function).
-
 <img src="repr_BFs.png">
 
-<b>Instances:</b></br>
+<b>BF_checkers.py</b> checks if a BF (Boolean function) is an EF (Effective function), UF (Unate function), CF (Canalyzing function) or NCF (Nested canalyzing function).<br/>
+<b>Instances:</b><br/>
 Enter the number of inputs and BF truth table as a binary string. The string from left to right is the output of the truth table from the top to bottom.
 
 ```python
@@ -24,9 +22,8 @@ True
 False
 ```
 
-BF_generator.py generates all BFs belogning to a particular type of BF namely, EF, UF, CF and NCF.
-
-Instances:
+<b>BF_generator.py</b. generates all BFs belogning to a particular type of BF namely, EF, UF, CF and NCF.<br/>
+<b>Instances:</b><br/>
 
 ```python
 >>> generate(1).all_BF()
@@ -48,8 +45,8 @@ Instances:
 ['0001', '1110', '0010', '0111', '1000', '0100', '1101', '1011']
 ```
 
-BF_properties.py is used to get various aspects of BFs such as average sensitivity, it's permutations, dnf or cnf expressions (both 'full' and 'Quine-McCluskey minimized' expressions) among others.
-
+<b>BF_properties.py</b> is used to get various aspects of BFs such as average sensitivity, it's permutations, dnf or cnf expressions (both 'full' and 'Quine-McCluskey minimized' expressions) among others.<br/>
+<b>Instances:</b><br/>
 ```python
 
 >>> bf(3, '10000101').avg_sensitivity() 
