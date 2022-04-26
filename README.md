@@ -2,7 +2,7 @@
 
 ## About
 MCBF repository contains the codes and dataset associated with the following manuscript:<br/>
-Ajay Subbaroyan, Olivier C Martin, Areejit Samal, <br/> *Minimum complexity drives regulatory logic in Boolean models of living systems*<br/> PNAS Nexus, Volume 1, Issue 1, March 2022, pgac017, https://doi.org/10.1093/pnasnexus/pgac017 <br/>
+Ajay Subbaroyan, Olivier C Martin, Areejit Samal. *Minimum complexity drives regulatory logic in Boolean models of living systems*, PNAS Nexus, Volume 1, Issue 1, March 2022, pgac017, https://doi.org/10.1093/pnasnexus/pgac017 <br/>
 
 This repository contains 4 folders which are described below.
 
@@ -21,4 +21,4 @@ This folder gives the reference_biological_dataset.tsv file containing details o
 
 ### CITATION
 In case you use the codes or data herein, please cite the manuscript:
-Ajay Subbaroyan, Olivier C Martin, Areejit Samal, <br/> *Minimum complexity drives regulatory logic in Boolean models of living systems* <br/> PNAS Nexus, Volume 1, Issue 1, March 2022, pgac017, https://doi.org/10.1093/pnasnexus/pgac017
+Ajay Subbaroyan, Olivier C Martin, Areejit Samal. *Minimum complexity drives regulatory logic in Boolean models of living systems*, PNAS Nexus, Volume 1, Issue 1, March 2022, pgac017, https://doi.org/10.1093/pnasnexus/pgac017
