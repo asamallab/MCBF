@@ -25,5 +25,5 @@ Contains the values of the network average sensitivity for all 88 models, obtain
 
 ### CITATION
 In case you use the codes or data herein, please cite the manuscript:<br/> 
-Ajay Subbaroyan, Olivier C Martin, Areejit Samal. *Minimum complexity drives regulatory logic in Boolean models of living systems*, PNAS Nexus, Volume 1, Issue 1, March 2022, pgac017, https://doi.org/10.1093/pnasnexus/pgac017<br/>
+A. Subbaroyan, O.C. Martin* & A. Samal*, *Minimum complexity drives regulatory logic in Boolean models of living systems*, PNAS Nexus, 1(1): pgac017.
 
