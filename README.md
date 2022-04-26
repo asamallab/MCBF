@@ -20,5 +20,5 @@ This folder gives the reference_biological_dataset.tsv file containing details o
 
 
 ### CITATION
-In case you use the codes or data herein, please cite the manuscript:
+In case you use the codes or data herein, please cite the manuscript:<br/>
 A. Subbaroyan, O.C. Martin* & A. Samal*, *Minimum complexity drives regulatory logic in Boolean models of living systems*, PNAS Nexus, 1(1): pgac017.
