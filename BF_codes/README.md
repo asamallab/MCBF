@@ -77,4 +77,4 @@ False
 
 ### CITATION
 In case you use the codes or data herein, please cite the manuscript:<br/>
-A. Subbaroyan, O.C. Martin* & A. Samal*, Minimum complexity drives regulatory logic in Boolean models of living systems, PNAS Nexus, 1(1): pgac017.
+A. Subbaroyan, O.C. Martin* & A. Samal*, *Minimum complexity drives regulatory logic in Boolean models of living systems*, PNAS Nexus, 1(1): pgac017.
