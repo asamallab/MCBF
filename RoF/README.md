@@ -33,4 +33,4 @@ There are 3 files in this folder:
 
 ### CITATION
 In case you use the codes or catalog herein, please cite the following reference:<br/>
-Ajay Subbaroyan, Olivier C Martin, Areejit Samal. *Minimum complexity drives regulatory logic in Boolean models of living systems*, PNAS Nexus, Volume 1, Issue 1, March 2022, pgac017, https://doi.org/10.1093/pnasnexus/pgac017 <br/>
+A. Subbaroyan, O.C. Martin* & A. Samal*, *Minimum complexity drives regulatory logic in Boolean models of living systems*, PNAS Nexus, 1(1): pgac017.
