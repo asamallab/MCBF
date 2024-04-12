@@ -1,8 +1,11 @@
 # MCBF
 
 ## About
-MCBF repository contains the codes and dataset associated with the following manuscript:<br/>
-A. Subbaroyan, O.C. Martin* & A. Samal*, *Minimum complexity drives regulatory logic in Boolean models of living systems*, PNAS Nexus, 1(1): pgac017.
+MCBF repository contains the codes and dataset associated with the following research article:<br/>
+
+Ajay Subbaroyan, Olivier C. Martin* & Areejit Samal*, [<i>Minimum complexity drives regulatory logic in Boolean models of living systems</i>](https://academic.oup.com/pnasnexus/article/1/1/pgac017/6569124), PNAS Nexus, 1(1):pgac017, 2022.<br>
+(* Corresponding authors)
+
 
 This repository contains 4 folders which are described below.
 
@@ -19,6 +22,7 @@ The code to check if a BF is a read-once function (RoF), and to generate the rep
 This folder gives the reference_biological_dataset.tsv file containing details of the 2687 Boolean functions compiled from 88 discrete models in published literature. It also contains the statistical_tests.R code which is used to compute the *p*-values to show enrichment of different types of BFs.
 
 
-### CITATION
-In case you use the codes or data herein, please cite the manuscript:<br/>
-A. Subbaroyan, O.C. Martin* & A. Samal*, *Minimum complexity drives regulatory logic in Boolean models of living systems*, PNAS Nexus, 1(1): pgac017.
+## Citation
+In case you use the codes herein, please cite the following research article:
+
+Ajay Subbaroyan, Olivier C. Martin* & Areejit Samal*, [<i>Minimum complexity drives regulatory logic in Boolean models of living systems</i>](https://academic.oup.com/pnasnexus/article/1/1/pgac017/6569124), PNAS Nexus, 1(1):pgac017, 2022.
